@@ -1,0 +1,24 @@
+{
+  "name": "maverick-backend",
+  "version": "1.0.0",
+  "description": "Backend services for Maverick project including code quality checker and attendance tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node code-quality-checker/api.js",
+    "analyze": "node code-quality-checker/index.js",
+    "attendance": "node attendance_tracker/attendanceAgent.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["code-quality", "attendance-tracker", "backend"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.53.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0",
+    "path": "^0.12.7",
+    "simple-git": "^3.28.0"
+  }
+} 
