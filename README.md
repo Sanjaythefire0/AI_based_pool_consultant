@@ -2,26 +2,6 @@
 
 Backend services for the Maverick project including code quality checker and attendance tracker.
 
-## Project Structure
-
-```
-backend/
-├── package.json
-├── code-quality-checker/
-│   ├── index.js          # Main code quality analysis
-│   ├── parser.js         # Gemini API integration
-│   └── api.js           # Express API server
-└── attendance_tracker/
-    ├── attendanceAgent.js
-    ├── attendanceAgentWithDate.js
-    ├── generateSyntheticData.js
-    ├── migrate.js
-    ├── uploadToSupabase.js
-    ├── viewData.js
-    ├── synthetic_attendance.json
-    └── migrations/
-        └── 001_create_attendance_table.js
-```
 
 ## Setup
 
